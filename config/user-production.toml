@@ -1,0 +1,3 @@
+# Run as the following user. Only use this if the application starts up as root
+user="zone-mta"
+group="zone-mta"

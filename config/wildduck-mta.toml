@@ -1,0 +1,37 @@
+# This is the main config file
+
+name="Wild Duck MTA"
+
+# Process identifier
+ident="wildduck-mta"
+
+# @include "user-{env}.toml"
+
+[log]
+# Logging options
+# @include "log-{env}.toml"
+
+[dbs]
+# MongoDB and Redis connection options
+# @include "dbs-{env}.toml"
+
+[queue]
+# @include "queue.toml"
+
+[dns]
+# @include "dns.toml"
+
+[smtpInterfaces]
+# @include "interfaces/*.toml"
+
+[plugins]
+# @include "plugins/*.toml"
+
+[pools]
+# @include "pools.toml"
+
+[zones]
+# @include "zones/*.toml"
+
+[domainConfig]
+# @include "domains.toml"

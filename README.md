@@ -15,4 +15,4 @@ $ sudo npm start
 
 ### Configuration
 
-All configuration options can be found from [config.json](./config.json)
+Main configuration file can be found from [config/wildduct-mta.toml](./config/wildduct-mta.toml), Wild Duck specific config is in [config/plugins/wildduck.toml](./config/plugins/wildduck.toml).

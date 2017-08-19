@@ -1,0 +1,7 @@
+syslog=false
+level="info"
+
+[remote]
+protocol="udp4"
+host=false
+port=31239
